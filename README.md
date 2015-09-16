@@ -55,5 +55,7 @@ sign = xu.buildSignature(nonce, method, host, path, params, macKey)
 headers = xu.buildMacRequestHead(token, nonce, sign)
 apiClient = XMApiClient(clientId, token)
 apiClient.callApi(path, params, headers, method)
+
+//callApiSelfSign 会自己完成签名和header添加, 相当于上面的代码
 apiClient.callApiSelfSign(path, params, macKey, method);
 ```
