@@ -7,10 +7,10 @@ http://dev.xiaomi.com/docs/passport/oauth2/
 ### 小米帐号开放平台文档
 http://dev.xiaomi.com/docs/passport/user_guide/
 
-### PHP SDK说明
-> * php-sdk/httpclient/XMApiClient.php -- 基础Http请求封装
-> * php-sdk/httpclient/XMOAuthClient.php -- 针对OAuth授权流程相关http请求封装
-> * php-sdk/httpclient/XMHttpClient.php -- 针对api请求相关http请求封装
+### python SDK说明
+> * XMHttpClient.py -- 基础Http请求封装
+> * XMOAuthClient.py -- 针对OAuth授权流程相关http请求封装
+> * XMApiClient.py -- 针对api请求相关http请求封装
 
 ### DEMO
 #### 1.  获取授权URL DEMO
